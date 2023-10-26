@@ -1,3 +1,7 @@
+# Deployed on 
+- https://netflix-gpt-98272.web.app
+
+
 # Netflix Clone with GPT features
 
 - Create React App
