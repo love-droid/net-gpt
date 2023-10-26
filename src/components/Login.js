@@ -36,7 +36,7 @@ const Login = () => {
         <input ref={email} type='text' placeholder='Email or phone number' className='p-2 m-2 text-white w-full bg-gray-800 rounded-lg'></input>
         <input ref={password} type='password' placeholder='Password' className='p-2 m-2 text-white w-full bg-gray-800 rounded-lg'></input>
 
-        <button className='p-2 mx-2 my-10 bg-red-700 w-full rounded-lg' onClick={handleButton}>{isSignIn ? "Sign In" : "Sign Up"}</button>
+        <button className='p-2 mx-2 my-10 bg-red-700 w-full rounded-lg' onClick={handleButton}>Submit</button>
         {errMessage && <p className='text-red-500'>{errMessage}</p>}
         <p className='py-4 cursor-pointer' onClick={toggleSignInForm}>{isSignIn ? "New to Netflix? Sign Up Now": "Already Registered? Sign In Now"}</p>
       </form>
